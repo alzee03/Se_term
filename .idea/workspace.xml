@@ -1,7 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b9c13d0-e293-4bda-baf1-eda51b3822a7" name="Default Changelist" comment="" />
+    <list default="true" id="8b9c13d0-e293-4bda-baf1-eda51b3822a7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ModelTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/se_term/Admin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/se_term/Admin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/se_term/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/se_term/Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/se_term/Book_list.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/se_term/Book_list.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/se_term/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/se_term/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/se_term/Meta_Book_list.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/se_term/Model.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/se_term/Model.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/se_term/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/se_term/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/se_term/View.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/se_term/View.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/se_term/BookTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/se_term/BookTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/se_term/mainTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Book_list.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Book_list.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Meta_Book_list.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/BookTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/BookTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/mainTest.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,18 +38,25 @@
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="15" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1dRlwuf4OdKmG2ZvXkBj4kvR01C" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -33,8 +68,9 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="Book" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="Model" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -44,6 +80,8 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
+      <recent name="Model" />
+      <recent name="View" />
       <recent name="Book" />
       <recent name="main" />
     </key>
@@ -56,11 +94,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BookTest.testGetName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ModelTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="se_term" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BookTest" />
-      <option name="METHOD_NAME" value="testGetName" />
+      <option name="MAIN_CLASS_NAME" value="ModelTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ModelTest.testDelete_user" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="se_term" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ModelTest" />
+      <option name="METHOD_NAME" value="testDelete_user" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ModelTest.testSearch_book_year" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="se_term" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ModelTest" />
+      <option name="METHOD_NAME" value="testSearch_book_year" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ModelTest.testSubscribe" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="se_term" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ModelTest" />
+      <option name="METHOD_NAME" value="testSubscribe" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -69,7 +136,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.BookTest.testGetName" />
+        <item itemvalue="JUnit.ModelTest" />
+        <item itemvalue="JUnit.ModelTest.testSubscribe" />
+        <item itemvalue="JUnit.ModelTest.testDelete_user" />
+        <item itemvalue="JUnit.ModelTest.testSearch_book_year" />
       </list>
     </recent_temporary>
   </component>
@@ -99,53 +169,108 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="14" y="216" key="#ModelTest.testDelete_book_(1)" timestamp="1592801634132">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="14" y="216" key="#ModelTest.testDelete_book_(1)/0.23.1792.1097@0.23.1792.1097" timestamp="1592801634132" />
     <state x="496" y="236" width="811" height="669" key="#Project_Structure" timestamp="1592470947952">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="496" y="236" width="811" height="669" key="#Project_Structure/0.23.1792.1097@0.23.1792.1097" timestamp="1592470947952" />
-    <state x="659" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592473914300">
+    <state x="659" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592583909959">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="659" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1592473914300" />
+    <state x="659" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1592583909959" />
+    <state x="996" y="123" width="696" height="897" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1592802191182">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="996" y="123" width="696" height="897" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1592802191182" />
     <state x="885" y="194" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1592405460201">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="885" y="194" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1792.1097@0.23.1792.1097" timestamp="1592405460201" />
-    <state x="634" y="362" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1592409275446">
+    <state x="634" y="362" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1592582205821">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="634" y="362" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1592409275446" />
-    <state width="1153" height="303" key="GridCell.Tab.0.bottom" timestamp="1592473960081">
+    <state x="634" y="362" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1592582205821" />
+    <state x="968" y="174" key="CommitChangelistDialog2" timestamp="1592801805721">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1153" height="303" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1592473960081" />
-    <state width="1153" height="303" key="GridCell.Tab.0.center" timestamp="1592473960080">
+    <state x="968" y="174" key="CommitChangelistDialog2/0.23.1792.1097@0.23.1792.1097" timestamp="1592801805721" />
+    <state width="854" height="303" key="GridCell.Tab.0.bottom" timestamp="1592818147916">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1153" height="303" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1592473960080" />
-    <state width="1153" height="303" key="GridCell.Tab.0.left" timestamp="1592473960080">
+    <state width="854" height="303" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1592818147916" />
+    <state width="854" height="303" key="GridCell.Tab.0.center" timestamp="1592818147915">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1153" height="303" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1592473960080" />
-    <state width="1153" height="303" key="GridCell.Tab.0.right" timestamp="1592473960081">
+    <state width="854" height="303" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1592818147915" />
+    <state width="854" height="303" key="GridCell.Tab.0.left" timestamp="1592818147915">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1153" height="303" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1592473960081" />
+    <state width="854" height="303" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1592818147915" />
+    <state width="854" height="303" key="GridCell.Tab.0.right" timestamp="1592818147916">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="854" height="303" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1592818147916" />
+    <state width="854" height="373" key="GridCell.Tab.1.bottom" timestamp="1592806203424">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="854" height="373" key="GridCell.Tab.1.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1592806203424" />
+    <state width="854" height="373" key="GridCell.Tab.1.center" timestamp="1592806203424">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="854" height="373" key="GridCell.Tab.1.center/0.23.1792.1097@0.23.1792.1097" timestamp="1592806203424" />
+    <state width="854" height="373" key="GridCell.Tab.1.left" timestamp="1592806203423">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="854" height="373" key="GridCell.Tab.1.left/0.23.1792.1097@0.23.1792.1097" timestamp="1592806203423" />
+    <state width="854" height="373" key="GridCell.Tab.1.right" timestamp="1592806203424">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="854" height="373" key="GridCell.Tab.1.right/0.23.1792.1097@0.23.1792.1097" timestamp="1592806203424" />
     <state x="600" y="472" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1592405639707">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="600" y="472" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.23.1792.1097@0.23.1792.1097" timestamp="1592405639707" />
-    <state x="675" y="305" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1592409302740">
+    <state x="1006" y="495" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592801791822">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="675" y="305" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1592409302740" />
-    <state x="0" y="23" width="896" height="1097" key="dock-window-1" timestamp="1592473860432">
+    <state x="1006" y="495" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1792.1097@0.23.1792.1097" timestamp="1592801791822" />
+    <state x="675" y="305" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1592582268944">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="0" y="23" width="896" height="1097" key="dock-window-1/0.23.1792.1097@0.23.1792.1097" timestamp="1592473860432" />
-    <state x="1009" y="268" width="670" height="676" key="search.everywhere.popup" timestamp="1592474140312">
+    <state x="675" y="305" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1592582268944" />
+    <state x="0" y="23" width="896" height="549" key="dock-window-1" timestamp="1592802789534">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="1009" y="268" width="670" height="676" key="search.everywhere.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1592474140312" />
+    <state x="0" y="23" width="896" height="549" key="dock-window-1/0.23.1792.1097@0.23.1792.1097" timestamp="1592802789534" />
+    <state x="0" y="571" width="896" height="549" key="dock-window-2" timestamp="1592802789534">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="0" y="571" width="896" height="549" key="dock-window-2/0.23.1792.1097@0.23.1792.1097" timestamp="1592802789534" />
+    <state x="1009" y="268" width="670" height="676" key="search.everywhere.popup" timestamp="1592563079923">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="1009" y="268" width="670" height="676" key="search.everywhere.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1592563079923" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/out/test/se_term/ModelTest.class</url>
+          <line>95</line>
+          <properties class="ModelTest" method="testDelete_book">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/se_term$ModelTest_testSubscribe.ic" NAME="ModelTest.testSubscribe Coverage Results" MODIFIED="1592802198712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/se_term$ModelTest.ic" NAME="ModelTest Coverage Results" MODIFIED="1592802358510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/se_term$Main.ic" NAME="Main Coverage Results" MODIFIED="1592802056992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

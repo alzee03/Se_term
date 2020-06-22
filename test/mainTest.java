@@ -1,3 +1,0 @@
-class mainTest extends Main {
-
-}

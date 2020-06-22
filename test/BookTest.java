@@ -7,7 +7,7 @@ class BookTest extends Book {
     @Test
     void testGetName() {
         Book b = new Book("software");
-        assertEquals("softwa",b.getName(),"fail");
+        assertEquals("software",b.getName(),"fail");
     }
 
     @Test

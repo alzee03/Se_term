@@ -1,68 +1,34 @@
-import java.lang.reflect.Array;
-import java.util.ArrayList;
-public class User {
+public class User extends Person{
     private static final int Unknown=-524288;
-    private static final int Activated=-8388608;
-    private static final int Disactivated=8388608;
-    private String id;
-    private String password;
+    public static final int Activated=-8388608;
+    public static final int Disactivated=8388608;
     private String name;
     private int phone_num;  //010-8533-8992 is saved as 01085338992
     private String email;
-    private int state;
-    public static ArrayList<User> user_list;
+    public Book_list book_list;
+    public int state;
     User()
     {
-        this.id="Unknown";
-        this.password="Unknown";
         this.name="Unknown";
         this.phone_num=Unknown;
         this.email="Unknown";
         this.state=Activated;
+        user_list.add(this);
+
     }
     User(String id,String password,String name,int phone_num,
          String email)
     {
-        this.id=id;
-        this.password=password;
+        super(id,password);
         this.name=name;
         this.phone_num=phone_num;
         this.email=email;
         this.state=Activated;
-        User.user_list.add(this);
+        book_list = new Book_list(this);
+        user_list.add(this);
+
     }
-    //로그인 성공 return 1 disactivated 라서 실패 return 0 일치하는 id가 없어 실패 return -1 id는 있는 password가 틀리면  return -2
-    public static int Login(String id,String password)
-    {
-        int target=-1;
-        for(int i=0;i<User.user_list.size();i++)
-        {
-            if(user_list.get(i).getId().equals(id))
-            {
-                target=i;
-                break;
-            }
-        }
-        if(target == -1)
-            return -1;
-        if(!user_list.get(target).getPassword().equals(password))
-        {
-            return -2;
-        }
-        if(user_list.get(target).state==Disactivated)
-        {
-            return 0;
-        }
-         return 1;
-    }
-    public String getId()
-    {
-        return this.id;
-    }
-    public String getPassword()
-    {
-        return this.password;
-    }
+
     public  String getName()
     {
         return this.name;
@@ -75,14 +41,7 @@ public class User {
     {
         return this.email;
     }
-    public void setId(String id)
-    {
-        this.id=id;
-    }
-    public void setPassword(String password)
-    {
-        this.password=password;
-    }
+
     public void setName(String name)
     {
         this.name=name;

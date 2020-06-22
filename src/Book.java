@@ -1,9 +1,6 @@
 
-
-
-
 public class Book {
-    private static final int UNKNOWN = -1;
+    public static final int UNKNOWN = -1;
     private String name;
     private String publisher;
     private String author;
@@ -11,7 +8,9 @@ public class Book {
     private int year;
     private int price;
     private String state;
-    private String userId;
+    public String userId;
+
+    public User owner;
     public Book()
     {
 
@@ -99,16 +98,28 @@ public class Book {
     }
     public Book(String name, String publisher,String author,
                 int ISBN,int year,int price,String state,
-                String userId)
+                User user)
     {
+        this.owner=user;
         this.name=name;
-        this.publisher=publisher;
-        this.author=author;
+        if(publisher.isEmpty())
+            this.publisher="Unknown";
+        else
+            this.publisher=publisher;
+        if(author.isEmpty())
+            this.author="Unknown";
+        else
+            this.author=author;
         this.ISBN=ISBN;
         this.year=year;
         this.price=price;
-        this.state=state;
-        this.userId=userId;
+        if(state.isEmpty())
+            this.state="Unknown";
+        else
+            this.state=state;
+        this.userId=user.id;
+        user.book_list.add(this);
+        Model.meta_book_list.add(this);
     }
     public String getName()
     {
@@ -175,6 +186,28 @@ public class Book {
     {
         this.userId=userId;
     }
-
-
+    public void print()
+    {
+        String i,y,p;
+        if(this.ISBN==UNKNOWN)
+            i="Unknown";
+        else
+            i=Integer.toString(this.ISBN);
+        if(this.year==UNKNOWN)
+            y="Unknown";
+        else
+            y=Integer.toString(this.year);
+        if(this.price==UNKNOWN)
+            p="Unknown";
+        else
+            p=Integer.toString(this.price);
+        System.out.println("Name:"+this.getName()+
+                "\nISBN:"+i+
+                "\nauthor:"+this.getAuthor()+
+                "\npublisher:"+this.getPublisher()+
+                "\nyear:"+y+
+                "\nprice:"+p+
+                "\nstate:"+this.getState()+
+                "\nID:"+this.getUserId());
+    }
 }
